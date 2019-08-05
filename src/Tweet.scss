@@ -1,0 +1,48 @@
+article {
+  border: 4px solid dimgray;
+  padding: 0.5em;
+  opacity: 0.7;
+  margin: 0.5em auto;
+}
+
+article:hover {
+  opacity: 1;
+}
+
+article .user-handle {
+  opacity: 0;
+}
+
+article:hover .user-handle {
+  opacity: 1;
+}
+
+article header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar h2 {
+  margin-left: 1em;
+}
+
+header small {
+  margin-right: 1em;
+}
+
+article footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  padding: 0 1em;
+}
+
+article .actions i {
+  margin-right: 0.3em;
+}
